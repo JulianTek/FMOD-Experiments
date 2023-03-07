@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EffectPreset" id="{65aabb73-282b-46af-855f-529072fd39ba}">
+		<property name="name">
+			<value>Reverb</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6bf6c1b4-3bc9-4444-bbe0-6914f5ea11e0}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{6be33614-41ca-436b-913c-0d062223d3fc}</destination>
+		</relationship>
+	</object>
+	<object class="SFXReverbEffect" id="{6be33614-41ca-436b-913c-0d062223d3fc}">
+		<property name="HFDecayRatio">
+			<value>39.5</value>
+		</property>
+		<property name="diffusion">
+			<value>87</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>12</value>
+		</property>
+		<property name="highCut">
+			<value>14000</value>
+		</property>
+	</object>
+</objects>
